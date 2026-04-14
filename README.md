@@ -4,7 +4,7 @@
 
 I build modern frontend delivery systems — scalable component libraries, design systems, and full-stack React/Next.js applications across multiple e-commerce channels. I've also worked in the healthcare and payment processing sectors.
 
-My path to frontend engineering started in print production and graphic design. Two decades ago I was solving problems like: *How do you meet exacting graphic standards, then step and repeat to perfection in production?* Turns out, that's exactly what frontend architecture is — systematizing quality at scale. The medium changed; the craft didn't.
+My path to frontend engineering started in print production and graphic design. Two decades ago, I was solving problems like: *How do you meet exacting graphic standards, then step and repeat to perfection in production?* Turns out, that's exactly what frontend architecture is — systematizing quality at scale. The medium changed; the craft didn't.
 
 ### What I do now
 - 🏗️ Architect React component libraries and design systems themed across multiple brands
@@ -36,7 +36,7 @@ My AI-enabled development philosophy: **Plan → Refine → Code → Review → 
 
 ### Vibe-Coded
 
-My Library below started a single prompt, with Claude Opus interviewing me to get the full PRD. Using OpenClaw, I had Claude map out the Goodreads CSV schema, test enrichment APIs, discover placeholder image thresholds, build content filtering rules, and iterate through four PRD versions before writing production code. A few hours of planning with Claude Opus, then lightning speed execution by Claude Sonnet. The full design was created and executed by Claude in minutes from a few screenshots of ideas.
+My Library below started with a single prompt, with Claude Opus interviewing me to get the full PRD. Using OpenClaw, I had Claude map out the Goodreads CSV schema, test enrichment APIs, discover placeholder image thresholds, build content filtering rules, and iterate through four PRD versions before writing production code. A few hours of planning with Claude Opus, then lightning speed execution by Claude Sonnet. The full design was created and executed by Claude in minutes from a few screenshots of ideas.
 
 > #### 📚 [My Library](https://my-library-pink.vercel.app/)
 > A personal book catalog built with **Next.js**, **Prisma**, and **PostgreSQL**. Imported and normalized data from three separate sources — Goodreads, Audible, and Kindle — then enriched missing metadata (covers, series info, edition details) from OpenLibrary and Google Books APIs. Organizes 1,700+ books by series, author, and shelf with duplicate series detection, content filtering, and smart fallback logic that achieves 93% coverage even for obscure titles.
