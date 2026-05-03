@@ -59,5 +59,12 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-228B22?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
 
+> #### 🇺🇸 [Easy Visa Bagging Boosting and Tuning](https://cherylcarpenter.github.io/ml-bagging-boosting-tuning/)
+> **Ensemble Methods**
+>
+> Ensemble-focused binary classification project, progressing from simple bagging → boosting variants, with careful attention to data leakage prevention and class imbalance.
+>
+> ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Bagging](https://img.shields.io/badge/-Bagging-228B22?style=flat-square) ![Boosting](https://img.shields.io/badge/-Boosting-6A0DAD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square)
+
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
