@@ -66,5 +66,12 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Bagging](https://img.shields.io/badge/-Bagging-228B22?style=flat-square) ![Boosting](https://img.shields.io/badge/-Boosting-6A0DAD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square)
 
+> #### 💨 [Introduction to Neural Networks — ReneWind](https://cherylcarpenter.github.io/optimizing-neural-networks/)
+> **Neural Networks**
+>
+> Full ML workflow using TensorFlow/Keras: exploratory data analysis, preprocessing, model design, hyperparameter tuning, evaluation, and selecting the best-performing model to minimize overall maintenance expenditure.
+>
+> ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
+
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
