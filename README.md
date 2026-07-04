@@ -34,7 +34,7 @@ Ten years of enterprise frontend work, all proprietary. Component libraries, des
 
 My AI-enabled development philosophy: **Plan → Refine → Code → Review → Test.** AI accelerates every step, but the structure is what makes it production-ready.
 
-### Vibe-Coded
+#### Vibe-Coded
 
 My Library below started with a single prompt, with Claude Opus interviewing me to get the full PRD. Using OpenClaw, I had Claude map out the Goodreads CSV schema, test enrichment APIs, discover placeholder image thresholds, build content filtering rules, and iterate through four PRD versions before writing production code. A few hours of planning with Claude Opus, then lightning speed execution by Claude Sonnet. The full design was created and executed by Claude in minutes from a few screenshots of ideas.
 
@@ -43,7 +43,9 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-### 🎓 UT McCombs — PG Program in AI/ML: Business Applications
+---
+
+## 🎓 UT McCombs — PG Program in AI/ML: Business Applications
 
 > #### 🍔 [FoodHub](https://cherylcarpenter.github.io/foodhub/)
 > **Python Foundations**
@@ -72,6 +74,13 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 > Full ML workflow using TensorFlow/Keras: exploratory data analysis, preprocessing, model design, hyperparameter tuning, evaluation, and selecting the best-performing model to minimize overall maintenance expenditure.
 >
 > ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
+
+> #### 🩺 [Medical RAG Assistant](https://cherylcarpenter.github.io/nlp-rag-project/)
+> **NLP & Generative AI**
+>
+> Retrieval-Augmented Generation system grounding LLM responses in the Merck Manual (4,000+ pages) to help healthcare professionals cut through information overload for faster, more reliable clinical decisions. Chunked and embedded the manual into ChromaDB, then compared a general-purpose model (Mistral-7B-Instruct) against a medical-domain specialist (BioMistral-7B), using structured prompt engineering to produce clinically organized answers (symptoms, treatments, contraindications) instead of free-form text.
+>
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![RAG](https://img.shields.io/badge/-RAG-6C757D?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-444?style=flat-square)
 
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
