@@ -36,13 +36,10 @@ My AI-enabled development philosophy: **Plan → Refine → Code → Review → 
 
 #### Live Samples
 
-<table style="width:100%; table-layout:fixed;">
-<colgroup>
-<col style="width:33.33%"><col style="width:33.33%"><col style="width:33.33%">
-</colgroup>
+<table>
 <tr>
 
-<td valign="top">
+<td width="33%" valign="top">
 
 ##### 🏥 [Healthcare Billing Dashboard](https://healthcare-billing-dashboard-n9jfczkqx.vercel.app/groups)
 
@@ -53,6 +50,10 @@ Billing and administration console for insurance brokers/admins managing employe
 ![React](https://img.shields.io/badge/-React%2017-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Redux Toolkit](https://img.shields.io/badge/-Redux%20Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white) ![RTK Query](https://img.shields.io/badge/-RTK%20Query-764ABC?style=flat-square&logo=redux&logoColor=white) ![MUI](https://img.shields.io/badge/-MUI%20v5-007FFF?style=flat-square&logo=mui&logoColor=white) ![React Router](https://img.shields.io/badge/-React%20Router%20v6-CA4245?style=flat-square&logo=reactrouter&logoColor=white) ![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Azure Pipelines](https://img.shields.io/badge/-Azure%20Pipelines-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 </td>
+
+<td width="33%" valign="top"></td>
+
+<td width="33%" valign="top"></td>
 
 </tr>
 </table>
