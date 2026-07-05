@@ -1,6 +1,6 @@
 # Hi, I'm Cheryl 👋
 
-**Principal Front End Developer @ Tire Rack**
+**Principal Frontend Developer @ Tire Rack**
 
 I build modern frontend delivery systems — scalable component libraries, design systems, and full-stack React/Next.js applications across multiple e-commerce channels. I've also worked in the healthcare and payment processing sectors.
 
@@ -30,9 +30,34 @@ Each chapter built on the last. I still carry the designer's eye for detail and 
 ## Projects
 
 ### Current
-Ten years of enterprise frontend work, all proprietary. Component libraries, design systems, e-commerce platforms — the kind of work that ships to millions but lives behind an NDA. Gated samples coming soon, available on request.
+Ten years of enterprise frontend work, all proprietary. Component libraries, design systems, e-commerce platforms — the kind of work that ships to thousands but lives behind an NDA. More gated samples coming soon, available on request.
 
 My AI-enabled development philosophy: **Plan → Refine → Code → Review → Test.** AI accelerates every step, but the structure is what makes it production-ready.
+
+#### Live Samples
+
+<table style="width:100%; table-layout:fixed;">
+<colgroup>
+<col style="width:33.33%"><col style="width:33.33%"><col style="width:33.33%">
+</colgroup>
+<tr>
+
+<td valign="top">
+
+##### 🏥 [Healthcare Billing Dashboard](https://healthcare-billing-dashboard-n9jfczkqx.vercel.app/groups)
+
+[<img src="assets/healthcare-billing-dashboard.png" width="100%" alt="Healthcare Billing Dashboard — Groups screen" />](https://healthcare-billing-dashboard-n9jfczkqx.vercel.app/groups)
+
+Billing and administration console for insurance brokers/admins managing employer group plans — groups, rate sheets, invoices, eligibility, and role-based permissions. I was the solo frontend developer paired with a .NET backend. I played designer in this case as well, so screens are simple, themed MUI elements. 6-week rapid delivery.  
+*Ask for password, gated. Recreated with static data, some functionality may be off.*     
+![React](https://img.shields.io/badge/-React%2017-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Redux Toolkit](https://img.shields.io/badge/-Redux%20Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white) ![RTK Query](https://img.shields.io/badge/-RTK%20Query-764ABC?style=flat-square&logo=redux&logoColor=white) ![MUI](https://img.shields.io/badge/-MUI%20v5-007FFF?style=flat-square&logo=mui&logoColor=white) ![React Router](https://img.shields.io/badge/-React%20Router%20v6-CA4245?style=flat-square&logo=reactrouter&logoColor=white) ![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Azure Pipelines](https://img.shields.io/badge/-Azure%20Pipelines-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+
+</td>
+
+</tr>
+</table>
+
+---
 
 #### Vibe-Coded
 
