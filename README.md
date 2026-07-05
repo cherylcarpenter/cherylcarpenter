@@ -30,7 +30,7 @@ Each chapter built on the last. I still carry the designer's eye for detail and 
 ## Projects
 
 ### Current
-Ten years of enterprise frontend work, all proprietary. Component libraries, design systems, e-commerce platforms — the kind of work that ships to thousands but lives behind an NDA. More gated samples coming soon, available on request.
+Fifteen years of enterprise frontend work, all proprietary. Component libraries, design systems, e-commerce platforms — the kind of work that ships to thousands but lives behind an NDA. More gated samples coming soon, ask for password.
 
 My AI-enabled development philosophy: **Plan → Refine → Code → Review → Test.** AI accelerates every step, but the structure is what makes it production-ready.
 
