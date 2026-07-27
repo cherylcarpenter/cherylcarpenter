@@ -108,5 +108,12 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![RAG](https://img.shields.io/badge/-RAG-6C757D?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-444?style=flat-square)
 
+> #### 🦺 [HelmNet — Safety Helmet Detection](https://cherylcarpenter.github.io/helmNet/)
+> **Computer Vision & Deep Learning**
+>
+> Image classification system for SafeGuard Corp that detects whether workers are wearing safety helmets on construction sites and industrial plants, automating safety enforcement that manual oversight handles slowly and inconsistently. Trained on 4,125 real-world images across varied lighting, angles, and postures — building custom CNNs and applying VGG16 transfer learning, then evaluating with precision, recall, and F1 to balance safety-critical false negatives.
+>
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![CNN](https://img.shields.io/badge/-CNN-6A0DAD?style=flat-square) ![VGG16](https://img.shields.io/badge/-VGG16-228B22?style=flat-square) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Transfer Learning](https://img.shields.io/badge/-Transfer%20Learning-444?style=flat-square)
+
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
