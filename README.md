@@ -51,7 +51,17 @@ Billing and administration console for insurance brokers/admins managing employe
 
 </td>
 
-<td width="33%" valign="top"></td>
+<td width="33%" valign="top">
+
+##### 🛞 [Wheelrack Wheel Fitment Guide](https://wheelrack.com/autonation/search)
+
+[<img src="assets/autonation-wheel-visualizer.png" width="100%" alt="Wheelrack Wheel Visualizer — American Racing AR23 rendered on a 2026 Ford Bronco Badlands, with faceted fitment filters" />](https://wheelrack.com/autonation/wheels?autoMake=ford&autoYear=2026&autoModel=bronco-2-door&autoTrim=badlands&variantSlug=american-racing-ar23-black)
+
+Live production wheel finder — shoppers pick make, year, model and optionally, trim, to get the wheels that actually fit their vehicle, across 70+ supported manufacturers. Every result renders on a **full-vehicle visualizer**: the selected wheel is composited onto the shopper's exact vehicle, with a carousel to flip finishes and brands side by side instead of guessing from a catalog photo. **Faceted storefront filtering** narrows the catalog by diameter, price, finish, brand, weight, width, offset, material, and construction — live counts on every facet, and each diameter labeled against the vehicle's factory spec (-1, factory, +1, +3) so an upsize is a deliberate choice rather than a gamble. Vehicle and wheel selection live in the URL, so any configured build is a shareable, crawlable link. This is one white-labeled channel of a multi-tenant React design system I architected to serve three e-commerce brands: design tokens are the theming contract, so brand differences are data, not code. Components are shared across all channels. The API layer is generated from OpenAPI specs rather than hand-written, and the shared component library holds 95% test coverage. I built the frontend team and delivery process from scratch and defined the AI-assisted engineering standards behind it (Plan → Refine → Code → Review → Test, via Claude Code).  
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![TanStack Query](https://img.shields.io/badge/-TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white) ![Design Tokens](https://img.shields.io/badge/-Design%20Tokens-444?style=flat-square)
+
+</td>
 
 <td width="33%" valign="top"></td>
 
