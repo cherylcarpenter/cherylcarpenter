@@ -125,5 +125,12 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![CNN](https://img.shields.io/badge/-CNN-6A0DAD?style=flat-square) ![VGG16](https://img.shields.io/badge/-VGG16-228B22?style=flat-square) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Transfer Learning](https://img.shields.io/badge/-Transfer%20Learning-444?style=flat-square)
 
+> #### 🛒 [SuperKart — Sales Forecasting](https://cherylcarpenter.github.io/SuperCart/)
+> **Model Deployment**
+>
+> End-to-end sales forecasting for a supermarket chain operating across tier cities, predicting outlet revenue for the upcoming quarter to guide inventory and regional sales strategy. Compared ensemble regressors on 8,700+ product-store records; a tuned Random Forest won on every test metric (R² 0.67, MAPE 18.7%). Serialized the model behind a Flask REST API with a Streamlit frontend, each in its own Docker container, and published to Hugging Face.
+>
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-189FDD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
