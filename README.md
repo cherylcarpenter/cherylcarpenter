@@ -46,7 +46,7 @@ My AI-enabled development philosophy: **Plan → Refine → Code → Review → 
 [<img src="assets/healthcare-billing-dashboard.png" width="100%" alt="Healthcare Billing Dashboard — Groups screen" />](https://healthcare-billing-dashboard-n9jfczkqx.vercel.app/groups)
 
 Billing and administration console for insurance brokers/admins managing employer group plans — groups, rate sheets, invoices, eligibility, and role-based permissions. I was the solo frontend developer paired with a .NET backend. I played designer in this case as well, so screens are simple, themed MUI elements. 6-week rapid delivery.  
-*Ask for password, gated. Recreated with static data, some functionality may be off.*     
+*Recreated with static data, some functionality may be off.*     
 ![React](https://img.shields.io/badge/-React%2017-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Redux Toolkit](https://img.shields.io/badge/-Redux%20Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white) ![RTK Query](https://img.shields.io/badge/-RTK%20Query-764ABC?style=flat-square&logo=redux&logoColor=white) ![MUI](https://img.shields.io/badge/-MUI%20v5-007FFF?style=flat-square&logo=mui&logoColor=white) ![React Router](https://img.shields.io/badge/-React%20Router%20v6-CA4245?style=flat-square&logo=reactrouter&logoColor=white) ![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Azure Pipelines](https://img.shields.io/badge/-Azure%20Pipelines-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 
 </td>
@@ -65,12 +65,13 @@ Live production wheel finder — shoppers pick make, year, model and optionally,
 
 <td width="33%" valign="top">
 
-##### 🧾 [AI Invoice Processing and Payment App](https://github.com/cherylcarpenter/cohort-team-2026-works-on-my-machine)
+##### 🧾 [AI Invoice Processing and Payment App](https://works-on-my-machine-demo.vercel.app/)
 
-[<img src="assets/ai-invoice-payment-app.png" width="100%" alt="AI Invoice Processing and Payment App — invoice with a Browser Use payment in progress" />](https://youtu.be/dmIHgnOtRJc)
+[<img src="assets/ai-invoice-payment-app.png" width="100%" alt="AI Invoice Processing and Payment App — invoice with a Browser Use payment in progress" />](https://works-on-my-machine-demo.vercel.app/)
 
 An invoice processing app with an AI agent that pays the bills. A team of four built it in six weeks in the Commit Your Code Cohort. The app takes a PDF or scan, reads the vendor, amount and due date (pdf-parse, with Google Gemini for scans) and checks the bill against approval rules. It then sends approved bills to a **Browser Use agent that pays them on the vendor's site**. An invoice is marked paid only when the receipt matches, and duplicate payments are blocked. As **frontend technical lead**, I set the team's Next.js server/client component pattern and wrote the code patterns guide. I also built the app shell, dashboard and page templates by adapting CoreUI, and fixed the session handling and server-side data fetching. I owned error handling and notifications too. I used Claude Code to generate invoice sets and error cases, which became the team's test scenarios. 15 merged PRs.  
-*[▶ Watch the demo](https://youtu.be/dmIHgnOtRJc). All demo data and vendor sites are fictional.*  
+[▶ Live demo](https://works-on-my-machine-demo.vercel.app/) · [Demo video](https://youtu.be/dmIHgnOtRJc) · [Team repo](https://github.com/cherylcarpenter/cohort-team-2026-works-on-my-machine)  
+*All demo data and vendor sites are fictional.*  
 ![Next.js](https://img.shields.io/badge/-Next.js%2016-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React%2019-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![CoreUI](https://img.shields.io/badge/-CoreUI-321FDB?style=flat-square&logo=coreui&logoColor=white) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Google Gemini](https://img.shields.io/badge/-Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Browser Use](https://img.shields.io/badge/-Browser%20Use-444?style=flat-square)
 
 </td>
