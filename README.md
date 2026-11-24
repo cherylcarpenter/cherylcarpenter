@@ -93,40 +93,14 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 
 ## 🎓 UT McCombs — PG Program in AI/ML: Business Applications
 
-> #### 🍔 [FoodHub](https://cherylcarpenter.github.io/foodhub/)
-> **Python Foundations**
+> #### 🛒 [SuperKart — Sales Forecasting](https://ai-ml-model-deployment-1-3pebygagcujhyhh9mrnpyy.streamlit.app/)
+> **Model Deployment**
 >
-> Exploratory data analysis for a food aggregator company — analyzing demand across restaurants and cuisines to provide actionable insights that enhance customer experience and improve business strategy.
+> A live, production-deployed ML app split into a separate frontend and backend. The **backend** is a Flask REST API served by Gunicorn in a Docker container on Render. It has single-prediction (JSON) and batch-prediction (CSV upload) endpoints, and it's tuned to fit a 512 MB free tier. The **frontend** is a Streamlit app that calls the API through a configurable backend URL. It's deployed on Streamlit Community Cloud, with its own Dockerfile for Hugging Face Spaces. Under it is sales forecasting for a supermarket chain: I compared ensemble regressors on 8,700+ product-store records, and a tuned Random Forest won on every test metric (R² 0.67, MAPE 18.7%).  
+> [▶ Live app](https://ai-ml-model-deployment-1-3pebygagcujhyhh9mrnpyy.streamlit.app/) · [Deployment code](https://github.com/cherylcarpenter/Ai-Ml-Model-Deployment-1) · [Model write-up](https://cherylcarpenter.github.io/SuperCart/)  
+> *Free-tier backend sleeps when idle, so the first prediction can take 30–60 seconds.*
 >
-> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Seaborn](https://img.shields.io/badge/-Seaborn-444?style=flat-square) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square)
-
-> #### 🏦 [Personal Loan Campaign](https://cherylcarpenter.github.io/personal-loan-campaign/)
-> **Machine Learning**
->
-> Predictive model to identify bank customers likely to purchase a loan. Analyzed customer attributes, built a Decision Tree model, and evaluated performance to help target potential buyers and increase conversion rates.
->
-> ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-228B22?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
-
-> #### 🇺🇸 [Easy Visa Bagging Boosting and Tuning](https://cherylcarpenter.github.io/ml-bagging-boosting-tuning/)
-> **Ensemble Methods**
->
-> Ensemble-focused binary classification project, progressing from simple bagging → boosting variants, with careful attention to data leakage prevention and class imbalance.
->
-> ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Bagging](https://img.shields.io/badge/-Bagging-228B22?style=flat-square) ![Boosting](https://img.shields.io/badge/-Boosting-6A0DAD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square)
-
-> #### 💨 [Introduction to Neural Networks — ReneWind](https://cherylcarpenter.github.io/optimizing-neural-networks/)
-> **Neural Networks**
->
-> Full ML workflow using TensorFlow/Keras: exploratory data analysis, preprocessing, model design, hyperparameter tuning, evaluation, and selecting the best-performing model to minimize overall maintenance expenditure.
->
-> ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
-
-> #### 🩺 [Medical RAG Assistant](https://cherylcarpenter.github.io/nlp-rag-project/)
-> **NLP & Generative AI**
->
-> Retrieval-Augmented Generation system grounding LLM responses in the Merck Manual (4,000+ pages) to help healthcare professionals cut through information overload for faster, more reliable clinical decisions. Chunked and embedded the manual into ChromaDB, then compared a general-purpose model (Mistral-7B-Instruct) against a medical-domain specialist (BioMistral-7B), using structured prompt engineering to produce clinically organized answers (symptoms, treatments, contraindications) instead of free-form text.
->
-> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![RAG](https://img.shields.io/badge/-RAG-6C757D?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-444?style=flat-square)
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-189FDD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Gunicorn](https://img.shields.io/badge/-Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white) ![Render](https://img.shields.io/badge/-Render-46E3B7?style=flat-square&logo=render&logoColor=black) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 > #### 🦺 [HelmNet — Safety Helmet Detection](https://cherylcarpenter.github.io/helmNet/)
 > **Computer Vision & Deep Learning**
@@ -135,12 +109,41 @@ My Library below started with a single prompt, with Claude Opus interviewing me 
 >
 > ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![CNN](https://img.shields.io/badge/-CNN-6A0DAD?style=flat-square) ![VGG16](https://img.shields.io/badge/-VGG16-228B22?style=flat-square) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Transfer Learning](https://img.shields.io/badge/-Transfer%20Learning-444?style=flat-square)
 
-> #### 🛒 [SuperKart — Sales Forecasting](https://cherylcarpenter.github.io/SuperCart/)
-> **Model Deployment**
+> #### 🩺 [Medical RAG Assistant](https://zta4nmxsscbu2tvghj6uku.streamlit.app/)
+> **NLP & Generative AI**
 >
-> End-to-end sales forecasting for a supermarket chain operating across tier cities, predicting outlet revenue for the upcoming quarter to guide inventory and regional sales strategy. Compared ensemble regressors on 8,700+ product-store records; a tuned Random Forest won on every test metric (R² 0.67, MAPE 18.7%). Serialized the model behind a Flask REST API with a Streamlit frontend, each in its own Docker container, and published to Hugging Face.
+> Retrieval-Augmented Generation system grounding LLM responses in the Merck Manual (4,000+ pages) to help healthcare professionals cut through information overload for faster, more reliable clinical decisions. Chunked and embedded the manual into ChromaDB, then compared a general-purpose model (Mistral-7B-Instruct) against a medical-domain specialist (BioMistral-7B), using structured prompt engineering to produce clinically organized answers (symptoms, treatments, contraindications) instead of free-form text.  
+> [▶ Live app](https://zta4nmxsscbu2tvghj6uku.streamlit.app/) · [App code](https://github.com/cherylcarpenter/medical-rag-app) · [Model write-up](https://cherylcarpenter.github.io/nlp-rag-project/)
 >
-> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-189FDD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![RAG](https://img.shields.io/badge/-RAG-6C757D?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-444?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+> #### 💨 [Introduction to Neural Networks — ReneWind](https://cherylcarpenter.github.io/optimizing-neural-networks/)
+> **Neural Networks**
+>
+> Full ML workflow using TensorFlow/Keras: exploratory data analysis, preprocessing, model design, hyperparameter tuning, evaluation, and selecting the best-performing model to minimize overall maintenance expenditure.
+>
+> ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
+
+> #### 🇺🇸 [Easy Visa Bagging Boosting and Tuning](https://cherylcarpenter.github.io/ml-bagging-boosting-tuning/)
+> **Ensemble Methods**
+>
+> Ensemble-focused binary classification project, progressing from simple bagging → boosting variants, with careful attention to data leakage prevention and class imbalance.
+>
+> ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Bagging](https://img.shields.io/badge/-Bagging-228B22?style=flat-square) ![Boosting](https://img.shields.io/badge/-Boosting-6A0DAD?style=flat-square) ![Hyperparameter Tuning](https://img.shields.io/badge/-Hyperparameter%20Tuning-444?style=flat-square)
+
+> #### 🏦 [Personal Loan Campaign](https://cherylcarpenter.github.io/personal-loan-campaign/)
+> **Machine Learning**
+>
+> Predictive model to identify bank customers likely to purchase a loan. Analyzed customer attributes, built a Decision Tree model, and evaluated performance to help target potential buyers and increase conversion rates.
+>
+> ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square) ![Scikit--Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Decision Tree](https://img.shields.io/badge/-Decision%20Tree-228B22?style=flat-square) ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-444?style=flat-square)
+
+> #### 🍔 [FoodHub](https://cherylcarpenter.github.io/foodhub/)
+> **Python Foundations**
+>
+> Exploratory data analysis for a food aggregator company — analyzing demand across restaurants and cuisines to provide actionable insights that enhance customer experience and improve business strategy.
+>
+> ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Seaborn](https://img.shields.io/badge/-Seaborn-444?style=flat-square) ![EDA](https://img.shields.io/badge/-EDA-6C757D?style=flat-square)
 
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cherylcarpenter2015/)
